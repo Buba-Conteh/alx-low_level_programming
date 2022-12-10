@@ -6,6 +6,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
+	/* thi is the main method*/
 	char ch;
 
 	 for( ch = 'a' ; ch <= 'z' ; ch++)
