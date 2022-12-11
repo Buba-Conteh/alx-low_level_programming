@@ -9,13 +9,11 @@ int main(void)
 	/* thi is the main method*/
 	char num;
 
-	 for( num = 0 ; num < 10 ; num++){
-		
-	 	putchar(num+'0');
-		
-	 }
-	    putchar('\n');
+	for( num = 0 ; num < 10 ; num++)
+		putchar(num+'0');
+	 
+	putchar('\n');
 	
 
-	 return(0);
+	return(0);
 }

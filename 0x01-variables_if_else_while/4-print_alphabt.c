@@ -9,14 +9,12 @@ int main(void)
 	/* thi is the main method*/
 	char ch;
 
-	 for( ch = 'a' ; ch <= 'z' ; ch++){
+	for( ch = 'a'; ch <= 'z'; ch++){
 		if(ch != ord('e') || ch != 113 )
-		{
-	 		putchar(ch);
-		}
+			putchar (ch);
 	 }
 
-	putchar('\n');
+	putchar ('\n');
 
-	 return(0);
+	return (0);
 }

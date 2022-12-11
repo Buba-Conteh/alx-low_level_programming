@@ -7,7 +7,6 @@
 int main(void)
 {
 	/*main Write a program that prints the */
-
 	char ch;
 
 	for (ch = 'z' ; ch >= 'a' ; ch--)
