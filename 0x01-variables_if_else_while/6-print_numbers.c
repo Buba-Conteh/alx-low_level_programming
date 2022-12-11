@@ -7,16 +7,15 @@
 int main(void)
 {
 	/* thi is the main method*/
-	char ch;
+	char num;
 
-	 for( ch = 'a' ; ch <= 'z' ; ch++){
-		if(ch != ord('e') || ch != 113 )
-		{
-	 		putchar(ch);
-		}
+	 for( num = 0 ; num < 10 ; num++){
+		
+	 	putchar(num+'0');
+		
 	 }
-
-	putchar('\n');
+	    putchar('\n');
+	
 
 	 return(0);
 }

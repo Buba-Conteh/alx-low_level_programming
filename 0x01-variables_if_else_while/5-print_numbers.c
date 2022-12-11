@@ -7,16 +7,15 @@
 int main(void)
 {
 	/* thi is the main method*/
-	char ch;
+	char num;
 
-	 for( ch = 'a' ; ch <= 'z' ; ch++){
-		if(ch != ord('e') || ch != 113 )
-		{
-	 		putchar(ch);
-		}
+	 for( num = 0 ; num < 10 ; num++){
+		
+	 	printf("%d",num);
+		
 	 }
-
-	putchar('\n');
+	    printf("\n");
+	
 
 	 return(0);
 }
