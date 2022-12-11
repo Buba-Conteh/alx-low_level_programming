@@ -8,7 +8,7 @@ int main(void)
 {
 	/*main Write a program that prints the */
 
-	char num;
+	int num;
 
 	for( num = 0 ; num < 10 ; num++){
 		if(num == 9)
