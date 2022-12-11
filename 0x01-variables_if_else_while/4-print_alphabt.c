@@ -12,8 +12,10 @@ int main(void)
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++){
-		if (ch != ord('e') || ch != 113 )
-			putchar (ch);
+		if (ch == 'e' || ch == 'q' )
+		continue;
+		
+		putchar (ch);
 	 }
 
 	putchar ('\n');
