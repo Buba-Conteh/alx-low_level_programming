@@ -16,11 +16,13 @@ int main(void)
 			putchar(num+'0');
 		}else{
 			putchar(num+'0');
-			putchar (',');
+			putchar (', ');
 
 		}
 	 
 	}
+
+	putchar (',');
 
 	return (0);
 }
