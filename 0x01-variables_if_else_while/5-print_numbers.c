@@ -9,15 +9,12 @@
 */
 int main(void)
 {
-	char ch;
+	char num;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar (ch);
+	for (num = 0; num < 10; num++)
+	printf("%d", num);
 
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	putchar (ch);
-
-	putchar ('\n');
+	printf("\n");
 
 	return (0);
 }

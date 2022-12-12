@@ -9,12 +9,10 @@
 */
 int main(void)
 {
+	/*main Write a program that prints the */
 	char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar (ch);
-
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	for (ch = 'z' ; ch >= 'a' ; ch--)
 	putchar (ch);
 
 	putchar ('\n');
